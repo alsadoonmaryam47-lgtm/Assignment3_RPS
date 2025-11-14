@@ -16,7 +16,7 @@ namespace RpsTests
         TEST_METHOD(Test_Rock_vs_Scissors_Player1)
         {
             const char* result = playRockPaperScissors("Rock", "Scissors");
-            Assert::AreEqual("Player2", result);
+            Assert::AreEqual("Player3", result);
         }
 
 
